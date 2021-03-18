@@ -1,0 +1,45 @@
+.serviceform {
+  display: flex;
+  height: 92vh;
+}
+.serviceform__content {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  background-color: #ebe9e9;
+  padding: 30px 20px;
+}
+.serviceform__map {
+  flex: 2;
+}
+.serviceform__title {
+  display: flex;
+  font-weight: 600px;
+  font-size: 14px;
+  color: #003459;
+}
+.serviceform__input {
+  width: 250px;
+  margin-top: 20px;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 10px;
+}
+.serviceform__textarea {
+  border: none;
+  resize: none;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.serv__offer__btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px 50px;
+  color: #fefefe;
+  background-color: #ff875c;
+  border-radius: 20px;
+  margin-top: 20px;
+  justify-self: end;
+  align-self: center;
+}

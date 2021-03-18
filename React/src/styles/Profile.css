@@ -1,0 +1,23 @@
+.service__author {
+  display: flex;
+  background-color: inherit;
+  font-size: 15px;
+  align-items: center;
+  color: #474747;
+  padding: 0px;
+  margin-top: 25px;
+}
+.service__author__text {
+  display: flex;
+  flex-direction: column;
+}
+.service__author__alt {
+  font-size: 12px;
+}
+.service__avatar {
+  margin-right: 10px;
+}
+.service__author__price {
+  color: green;
+  font-size: 12px;
+}

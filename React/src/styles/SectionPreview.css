@@ -1,0 +1,29 @@
+.sectionprev {
+  padding: 0px 20px 20px 20px;
+}
+.section__heading {
+  display: flex;
+  justify-content: space-between;
+}
+.section__title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #292929;
+  margin-bottom: 5px;
+}
+.section__desc {
+  color: #7d7c7c;
+  font-size: 15px;
+}
+.section__btn {
+  align-self: flex-end;
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 15px;
+}
+.section__services {
+  padding: 30px 20px 20px 0px;
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+.app__banner__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #003459;
+}
+.app__banner__welcome {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.app__banner__caption {
+  font-size: 42px;
+  text-align: center;
+  line-height: 70px;
+  width: 1000px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.app__banner__categories {
+  display: flex;
+  padding: 35px 0;
+}

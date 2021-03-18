@@ -1,0 +1,75 @@
+.serv {
+  display: flex;
+  height: 92vh;
+}
+.serv__info {
+  flex: 1;
+  background-color: #efeeee;
+  padding: 40px 20px;
+}
+
+.serv__map {
+  flex: 2;
+}
+.serv__title {
+  font-size: 20px;
+  color: #003459;
+  padding-left: 20px;
+}
+.serv__stats {
+  display: flex;
+  font-size: 15px;
+  color: #555555;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+.serv__stat {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.serv__stat__icon {
+  margin-right: 2px;
+}
+.serv__desc {
+  width: 90%;
+  border-radius: 20px;
+  padding: 20px;
+  color: #555555;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+  background-color: #ffffff;
+}
+.serv__imgs {
+  display: flex;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.serv__author {
+  padding-left: 20px;
+}
+.serv__offer {
+  display: flex;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+.serv__offer > input {
+  border: none;
+  padding: 5px;
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+::placeholder {
+  color: #7d7c7c;
+}
+.serv__offer__btn {
+  cursor: pointer;
+  border: none;
+  padding: 0 50px;
+  color: #fefefe;
+  background-color: #ff875c;
+  border-radius: 20px;
+}

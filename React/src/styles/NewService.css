@@ -1,0 +1,37 @@
+.newservice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffce5c;
+  height: 79vh;
+  color: #003459;
+  padding-top: 80px;
+  text-align: center;
+}
+.newservice__welcome {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.newservice__caption {
+  font-size: 45px;
+}
+.newservice__select {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.newservice__categories {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.newservice__nextbtn {
+  cursor: pointer;
+  border: none;
+  color: #ffff;
+  font-size: 17px;
+  background-color: #ff875c;
+  padding: 10px 20px;
+  margin-top: 60px;
+  border-radius: 20px;
+}

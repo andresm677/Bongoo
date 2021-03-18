@@ -1,0 +1,26 @@
+.app__logo {
+  font-size: 18px;
+  color: #003459;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 21px;
+  background-color: #ffce5c;
+}
+.app__navbar {
+  color: #003459;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.app__navbar__item {
+  margin-right: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #003459;
+}

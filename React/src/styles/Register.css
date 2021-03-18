@@ -1,0 +1,54 @@
+.register {
+  height: 100vh;
+  background-color: #ffce5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register__header {
+  text-align: center;
+  color: #003459;
+  margin-bottom: 30px;
+}
+.register__logo {
+  font-size: 45px;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 450px;
+  background-color: #f1ecec;
+  border-radius: 10px;
+  padding: 30px;
+}
+.register__caption {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 500px;
+}
+.register__title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #003459;
+}
+.register__group > input {
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 350px;
+  margin-top: 20px;
+}
+.register__button {
+  cursor: pointer;
+  background-color: #ff875c;
+  color: #ffff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}

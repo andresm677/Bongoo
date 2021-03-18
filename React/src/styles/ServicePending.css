@@ -1,0 +1,12 @@
+.serv__offers {
+  width: 90%;
+  height: 220px;
+  background-color: white;
+  margin-top: 20px;
+
+  overflow: auto;
+}
+.serv__offers > p {
+  color: #003459;
+  font-weight: 600;
+}
